@@ -1,2 +1,2 @@
-# Js-Function
-let's see how js function works
+# JS-Function
+let's see how js function works.
