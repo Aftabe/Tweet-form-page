@@ -10,3 +10,9 @@ body {
     font-size: 27px;
     padding: 7px 20px;
 }
+
+h2{
+    text-transform: capitalize;
+    text-align: center;
+    color: white;
+}
