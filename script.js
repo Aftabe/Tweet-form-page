@@ -23,15 +23,19 @@
 // alert(foo);
 // alert(bar);
 
-var too = 2 + 3,
-    too = too + 1,
-    too = too * 5;
+var too = myFunction(2);
 
 
-var soo = 3 + 3,
-    soo = soo + 1,
-    soo = soo * 5;
+var soo = myFunction(3);
     
 
-alert(too);    
-alert(soo);    
+function myFunction(pram1){
+    pram1 = pram1 + 3;
+    pram1 = pram1 + 1;
+    pram1 = pram1 *5;
+
+    return pram1;
+} 
+
+alert(too);
+alert(soo);
