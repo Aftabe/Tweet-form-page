@@ -23,19 +23,28 @@
 // alert(foo);
 // alert(bar);
 
-var too = myFunction(2, 2);
-
-
-var soo = myFunction(3, 2);
-    
-
-function myFunction(pram1, pram2){
+var myFunction = function(pram1, pram2, suny){
     pram1 = pram1 + 3;
     pram1 = pram1 + 1;
     pram1 = pram1 *5;
 
-    return pram1 * pram2;
-} 
+    return suny(pram1, pram2);
+};
 
+
+
+
+function sum(pram1, pram2) {
+    return pram1 * pram2;
+}
+
+
+
+
+var too = myFunction(2, 2, sum);
+var soo = myFunction(3, 2, function(pram1, pram2){
+    return pram1 * pram2;
+});
+    
 alert(too);
 alert(soo);
