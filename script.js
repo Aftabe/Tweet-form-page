@@ -1,28 +1,30 @@
-// var doSomething = function(paramOne, paramTwo, fn) {
-//     paramOne = paramOne + 3;
-//     paramOne = paramOne + 1;
-//     paramOne = paramOne * 8;
+var doSomething = function(paramOne, paramTwo, fn) {
+    paramOne = paramOne + 3;
+    paramOne = paramOne + 1;
+    paramOne = paramOne * 8;
 
-//     return fn(paramOne, paramTwo);
-// };
+    return fn(paramOne, paramTwo);
+};
 
-// function sum(paramOne, paramTwo) {
-//     return paramOne + paramTwo;
-// }
+function sum(paramOne, paramTwo) {
+    return paramOne + paramTwo;
+}
 
 
 
-// // set one
-// var foo = doSomething(2, 2, sum); // 96
+// set one
+var foo = doSomething(2, 2, sum); // 96
 
-// // set two
-// var bar = doSomething(3, 2, function(paramOne, paramTwo) {
-//     return paramOne * paramTwo;    
-// }); // 112
+// set two
+var bar = doSomething(3, 2, function(paramOne, paramTwo) {
+    return paramOne * paramTwo;    
+}); // 112
 
-// alert(foo);
-// alert(bar);
+alert(foo);
+alert(bar);
 
+
+// This is the second block of coding
 var myFunction = function(pram1, pram2, suny){
     pram1 = pram1 + 3;
     pram1 = pram1 + 1;
