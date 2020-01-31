@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(167, 180, 176);
-    color: black;
+    color: rgb(20, 14, 14);
     font-size: 27px;
     padding: 7px 20px;
 }
@@ -14,5 +14,5 @@ body {
 h2{
     text-transform: capitalize;
     text-align: center;
-    color: white;
+    color: rgb(10, 9, 9);
 }
