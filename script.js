@@ -50,3 +50,12 @@ var soo = myFunction(3, 2, function(pram1, pram2){
     
 alert(too);
 alert(soo);
+
+
+// Convert Fahrenheit to celsius
+function toCelsius(f){
+    return (5/9) * (f-32);
+}
+
+var f = toCelsius(87);
+document.write(f +' Celsius');
