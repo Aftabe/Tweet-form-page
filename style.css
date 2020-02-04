@@ -11,8 +11,17 @@ body {
     padding: 7px 20px;
 }
 
+h1 {
+    text-align: center;
+    color: black;
+}
+
 h2{
     text-transform: capitalize;
     text-align: center;
-    color: rgb(10, 9, 9);
+    margin-left: 400px;
+    color: red;
+    padding: 1rem 2rem;
+    border: .2rem solid greenyellow;
+    display: inline-block;
 }
