@@ -52,10 +52,10 @@
 // alert(soo);
 
 
-// // Convert Fahrenheit to celsius
-// function toCelsius(f){
-//     return (5/9) * (f-32);
-// }
+// Convert Fahrenheit to celsius
+function toCelsius(f){
+    return (5/9) * (f-32);
+}
 
-// var f = toCelsius(87);
-// document.write(f +' Celsius');
+var f = toCelsius(87);
+document.write(f +' Celsius');
