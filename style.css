@@ -1,4 +1,4 @@
-/* Normalizing css */
+/* Normalizing css using unerversal secletor */
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +23,6 @@ h2{
     margin-left: 400px;
     color: rgb(112, 38, 38);
     padding: 1rem 2rem;
-    border: .2rem solid greenyellow;
+    border: .2rem solid rgba(149, 153, 142, 0.925);
     display: inline-block;
 }
