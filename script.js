@@ -59,3 +59,4 @@ function toCelsius(f){
 
 var f = toCelsius(87);
 document.write(f +' Celsius');
+console.log(toCelsius(87));
