@@ -58,5 +58,5 @@ function toCelsius(f){
 }
 
 var f = toCelsius(87);
-document.write(f +' Celsius');
+document.getElementById('Celsius').innerHTML = toCelsius(87);
 console.log(toCelsius(87));
