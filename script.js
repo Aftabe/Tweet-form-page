@@ -60,3 +60,13 @@ function toCelsius(f){
 var f = toCelsius(77);
 document.getElementById('Celsius').innerHTML = toCelsius(77);
 console.log(toCelsius(87));
+
+
+// Event delagation
+let el = document.getElementById('demo');
+
+el.addEventListener('click', doSomeThing);
+
+function doSomeThing(e){
+    console.log(e);
+}
