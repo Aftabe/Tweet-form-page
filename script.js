@@ -53,9 +53,10 @@
 
 
 // Convert Fahrenheit to celsius
-function toCelsius(f){
+function toCelsius(F){
     return (5/9) * (f-32);
 }
 
 var f = toCelsius(87);
-document.write(f +' Celsius');
+document.write(F +' Celsius');
+
