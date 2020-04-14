@@ -1,14 +1,16 @@
-/* Normalizing css */
+/* Normalizing css using unerversal secletor */
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(154, 172, 166);
-    color: rgb(8, 4, 4);
+    background-color: rgba(156, 221, 199, 0.589);
+    color: rgb(32, 13, 13);
     font-size: 27px;
     padding: 7px 20px;
+    margin: 20px;
 }
 
 h1 {
@@ -21,7 +23,8 @@ h2{
     text-align: center;
     margin-left: 400px;
     color: rgb(112, 38, 38);
+    margin-top: 17px;
     padding: 1rem 2rem;
-    border: .2rem solid greenyellow;
+    border: .2rem solid rgba(149, 153, 142, 0.925);
     display: inline-block;
 }
