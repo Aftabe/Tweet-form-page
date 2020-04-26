@@ -1,4 +1,4 @@
-window.onscroll = function() {myFunction()};
+window.onscroll = function () { myFunction() };
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
@@ -10,3 +10,4 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+// add tweet to local storage
