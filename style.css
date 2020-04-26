@@ -85,7 +85,7 @@ li a:hover:not(.active) {
 
 .col-a {
   box-sizing: border-box;
-  float: right;
+  /* float: right; */
   padding: 10px;
   width: 50%;
   margin: 10px;
@@ -95,7 +95,7 @@ li a:hover:not(.active) {
 }
 
 /* form style */
-#tweet-title{
+#tweet-title {
   float: left;
   margin-left: 5px;
 }
@@ -109,7 +109,7 @@ li a:hover:not(.active) {
   width: 590px;
   padding: 14px 18px;
   background-color: #318dd8;
-  outline: 0; 
+  outline: 0;
   border: none !important;
   cursor: pointer;
   box-sizing: border-box;
@@ -123,7 +123,7 @@ li a:hover:not(.active) {
   /* background-color: transparent; */
 }
 
-.form-btn:hover{
+.form-btn:hover {
   background-color: rgba(60, 154, 231, 0.918);
   color: white;
 }
@@ -131,10 +131,17 @@ li a:hover:not(.active) {
 /* remove-btn style */
 .remove-tweet,
 .remove-tweet:hover {
-    float: right;
-    cursor: pointer;
-    color: red;
-    font-weight: bold;
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
+}
+
+.remove {
+  float: right;
+  cursor: pointer;
+  color: red;
+  font-weight: bold;
 }
 
 
