@@ -5,26 +5,55 @@
     box-sizing: border-box;
 }
 
+/* preset color */
+/* --mainBlu: */
+
 body {
-    background-color: rgba(156, 221, 199, 0.589);
-    color: rgb(32, 13, 13);
-    font-size: 27px;
-    padding: 7px 20px;
-    margin: 20px;
+    background-color: #dfdfb9;
 }
 
-h1 {
+
+/* navbar style */
+
+#fixed{
+    /* display: fixed; */
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(59, 51, 51);
+  }
+  
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-    color: black;
-}
-
-h2{
+    padding: 14px 16px;
+    text-decoration: none;
     text-transform: capitalize;
-    text-align: center;
-    margin-left: 400px;
-    color: rgb(112, 38, 38);
-    margin-top: 17px;
-    padding: 1rem 2rem;
-    border: .2rem solid rgba(149, 153, 142, 0.925);
-    display: inline-block;
-}
+  }
+  
+  li a:hover:not(.active) {
+    background-color: hsla(207, 78%, 57%, 0.767);
+  }
+  
+  .active {
+    background-color: #318dd8;
+  }
+
+  /* Banner style */
+  .banner{
+      min-height: 70vh;
+      background-color: green;
+  }
