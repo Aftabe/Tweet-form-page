@@ -39,6 +39,7 @@ function newTweet(e) {
   const removeBtn = document.createElement('a');
   removeBtn.classList = 'remove';
   removeBtn.textContent = 'X';
+  removeBtn.style.float = 'right';
 
 
   // Create an LI element
