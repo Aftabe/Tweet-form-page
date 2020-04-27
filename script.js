@@ -24,7 +24,7 @@ function eventListeners() {
   document.querySelector('form').addEventListener('submit', newTweet);
 
   // Remove Tweet from list
-  tweetList.addEventListener('click', removeTweet);
+  tweetList.addEventListener('dblclick', removeTweet);
 
   // Document Ready
   document.addEventListener('DOMContentLoaded', localStorageLoad);
@@ -62,7 +62,7 @@ function newTweet(e) {
 function removeTweet(e) {
   // Detect which element is clicked
   e.preventDefault();
-  if (e.target.className === '') {
+  if (e.target.classList === 'remove-tweet') {
     e.target.parentElement.remove()
   }
   // Remove From Storage
