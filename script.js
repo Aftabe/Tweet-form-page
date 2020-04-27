@@ -13,8 +13,6 @@ function myFunction() {
 // add tweet to local storage
 
 
-
-
 // Variables
 const tweetList = document.getElementById('tweet-list');
 
@@ -41,10 +39,11 @@ function newTweet(e) {
   const removeBtn = document.createElement('a');
   removeBtn.classList = 'remove';
   removeBtn.textContent = 'X';
+  removeBtn.style.float = 'right';
 
 
   // Create an LI element
-  let li = document.createElement('li');
+  let li = document.createElement('p');
   li.textContent = tweet;
 
   // Add the remove button to each tweet
@@ -83,7 +82,7 @@ function addTweetLocalStorage(tweet) {
   localStorage.setItem('tweets', JSON.stringify(tweets));
 
   // Print an Alert
-  alert('Tweet Added');
+  // alert('Tweet Added');
 }
 
 // Removes the tweets from local Storage
@@ -135,7 +134,7 @@ function localStorageLoad() {
     removeBtn.textContent = 'X';
 
     // Create the Li
-    let li = document.createElement('li');
+    let li = document.createElement('p');
     li.textContent = tweet;
     li.appendChild(removeBtn);
 
