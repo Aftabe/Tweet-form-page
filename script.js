@@ -10,9 +10,14 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+
+
+
+
+
 // add tweet to local storage
-
-
 // Variables
 const tweetList = document.getElementById('tweet-list');
 
@@ -63,7 +68,7 @@ function removeTweet(e) {
   // Detect which element is clicked
   e.preventDefault();
   if (e.target.className === 'remove-tweet') {
-    e.target.parentElement.remove();
+    e.target.parentElement.textContent = ' ';
   }
   // Remove From Storage
   removeTweetLocalStorage(e.target.parentElement.textContent);
