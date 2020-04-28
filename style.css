@@ -126,7 +126,7 @@ li a:hover:not(.active) {
 
 .form-btn:hover {
   background-color: rgba(60, 154, 231, 0.918);
-  color: white;
+  color: #ffffff;
 }
 
 /* remove-btn style */
