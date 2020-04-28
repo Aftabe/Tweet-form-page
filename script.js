@@ -63,7 +63,7 @@ function removeTweet(e) {
   // Detect which element is clicked
   e.preventDefault();
   if (e.target.className === 'remove-tweet') {
-    e.target.parentElement.remove()
+    e.target.parentElement.remove();
   }
   // Remove From Storage
   removeTweetLocalStorage(e.target.parentElement.textContent);
