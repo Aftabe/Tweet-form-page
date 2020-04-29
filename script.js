@@ -19,7 +19,7 @@ function myFunction() {
 
 // add tweet to local storage
 // Variables
-const tweetList = ;
+const tweetList = document.querySelector('#tweet-list');
 
 // Event Listeners
 eventListeners();
