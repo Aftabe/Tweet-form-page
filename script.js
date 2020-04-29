@@ -42,7 +42,7 @@ function newTweet(e) {
 
   // Create the remove button
   const removeBtn = document.createElement('a');
-  removeBtn.classList = 'remove';
+  removeBtn.classList = 'remove-tweet';
   removeBtn.textContent = 'X';
   removeBtn.style.float = 'right';
 
