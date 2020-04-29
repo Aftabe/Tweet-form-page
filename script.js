@@ -67,7 +67,7 @@ function newTweet(e) {
 function removeTweet(e) {
   // Detect which element is clicked
   e.preventDefault();
-  if (e.target.className === 'remove-tweet') {
+  if (e.target.className === '') {
     e.target.parentElement.remove();
   }
   // Remove From Storage
