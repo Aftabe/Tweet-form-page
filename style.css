@@ -83,6 +83,15 @@ li a:hover:not(.active) {
   /* align-items: center; */
 }
 
+/* text flex box */
+.text-style {
+  justify-content: space-between;
+}
+.float-right {
+  margin-right: 0 !important;
+  float: right !important;
+}
+
 .col-a {
   box-sizing: border-box;
   /* float: right; */
