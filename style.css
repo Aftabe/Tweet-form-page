@@ -138,12 +138,12 @@ li a:hover:not(.active) {
   font-weight: bold;
 }
 
-.remove {
+/* .remove {
   float: right;
   cursor: pointer;
   color: red;
   font-weight: bold;
-}
+} */
 
 
 
