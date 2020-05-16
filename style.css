@@ -159,6 +159,7 @@ li a:hover:not(.active) {
 
 .text-box{
   overflow: hidden;
+  padding: 10px;
 }
 
 
