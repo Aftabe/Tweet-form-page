@@ -151,6 +151,12 @@ li a:hover:not(.active) {
   font-weight: bold;
 } */
 
+/* Tweet list */
+.tweet-list{
+  /* width: 150px; */
+  overflow: hidden !important;
+}
+
 
 
 
