@@ -163,7 +163,7 @@ li a:hover:not(.active) {
 }
 
 .uder-line{
-  width: 40px;
+  width: 180px;
   height: 2px;
   background-color: green;
 }
