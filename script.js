@@ -151,15 +151,15 @@ function localStorageLoad() {
 
 
 // The js switch statements
-var text;
-switch (new Date().getDay()) {
-  default:
-    text = "Looking forward to the Weekend";
-    break;
-  case 6:
-    text = "Today is Saturday";
-    break;
+var x = "Ali";
+switch (x) {
   case 0:
-    text = "Today is Sunday";
+    text = "Off";
+    break;
+  case 1:
+    text = "Ali";
+    break;
+  default:
+    text = "No value found";
 }
 document.getElementById("demo").innerHTML = text;
